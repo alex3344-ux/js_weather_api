@@ -1,0 +1,3113 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+/* @font-face {
+	font-family: 'Font';
+	src: url(bayern.ttf);
+} */
+
+/* body{
+  font-family: Font;
+} */
+
+/* .display {
+	font-size: 128px;
+} */
+
+:root {
+  --var-bgcolor: #fff;
+  --var-fontcolor: #000;
+	--var-bg-leftpanel-color: #1e9bff;
+}
+
+[dark] {
+  --var-bgcolor: #333;
+  --var-fontcolor: #eee;
+	--var-bg-leftpanel-color: var(--var-bg-leftpanel-color);
+	/* --var- */
+}
+
+body {
+  background-color: var(--var-bgcolor);
+  color: var(--var-fontcolor);
+}
+
+
+.prime {}
+
+
+.container {}
+
+@media(min-width: 1366px) {
+	.subprime {
+		display: flex;
+	}
+
+	/* //============================= */
+
+	.leftpanelB {
+		display: grid;
+		grid-template-rows: repeat(8, 1fr);
+		width: 15vw;
+		height: 100vh;
+		background: #1e9bff;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.block001_leftpanel {
+		display: grid;
+		grid-template-rows: repeat(8, 1fr);
+		width: 15vw;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+	}
+
+	.block001_leftpanel::before {
+		width: 15vw;
+		height: 100vh;
+		content: '';
+		position: fixed;
+		inset: 0;
+		background: linear-gradient(90deg, #fb0094, #0000ff, #00ff00, #ffff00,  #fb0094, #0000ff, #00ff00, #ffff00);
+		animation: animate 20s linear infinite;
+		background-size: 500%;
+	}
+
+	@keyframes animate {
+		0%{
+			background-position: 0 0;
+		}
+		0%{
+			background-position: 500% 0;
+		}
+	}
+
+	/* //============================= */
+
+
+
+	.leftpanel_b001 {}
+
+	.leftpanel_img001 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name001 {
+		position: relative;
+	}
+
+	.leftpanel_b002 {}
+
+	.leftpanel_img002 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name002 {
+		position: relative;
+	}
+
+	.leftpanel_b003 {}
+
+	.leftpanel_img003 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name003 {
+		position: relative;
+	}
+
+	.leftpanel_b004 {}
+
+	.leftpanel_img004 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name004 {
+		position: relative;
+	}
+
+	.leftpanel_b005 {}
+
+	.leftpanel_img005 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name005 {
+		position: relative;
+	}
+
+	.leftpanel_b006 {}
+
+	.leftpanel_name006 {}
+
+	.leftpanel_b007 {}
+
+	.leftpanel_img006 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name007 {
+		position: relative;
+	}
+
+	.leftpanel_b008 {}
+
+	.leftpanel_img007 {
+		position: relative;
+		top: 10px;
+		width: 40px;
+	}
+
+	.leftpanel_name008 {
+		position: relative;
+	}
+
+
+
+	.block002_right {
+		width: 85vw;
+		height: 100vh;
+	}
+
+	.header {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+
+	.date {}
+
+	.year {
+	    margin: 20px 0px 0px 30px;
+	}
+
+	.nowTime {
+	    margin: 0px 0px 0px 30px;
+	}
+
+	.input {
+	    display: flex;
+	    flex-direction: row;
+	    margin: 20px 20px 0px 0px;
+	}
+
+	.lname {
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+			text-align: center;
+			background: transparent;
+	}
+
+	.inputCity {
+		width: 70px;
+		height: 30px;
+		border: 1px solid gray;
+		background: transparent;
+		margin: 0px 50px 0px 0px;
+	}
+
+	.switchTheme {
+		width: 32px;
+		background: transparent;
+		margin: 0px 15px 0px 15px;
+	}
+
+	.bell_img {
+	    width: 30px;
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+	}
+
+	.user_img {
+	    width: 30px;
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+	}
+
+	.section_001 {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+	.section_002 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.section_003 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+		text-align: center;
+
+	}
+
+	.section_003_block001 {
+
+	}
+	.section_003_block001_subblock_001 {}
+
+	.section_003_block002 {
+	}
+	.section_003_block001_subblock_002 {}
+
+
+	.section_001_block001 {
+		padding-left: 30px;
+	}
+
+	.frame {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 35vw;
+		height: 37vh;
+		text-align: center;
+		padding: 20px 20px 20px 20px;
+		border: 2px dashed #1e9bff;
+	}
+
+	.section_001_block002 {
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+
+	}
+	.weatherinfo_001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 20px;
+	}
+
+	.weatherinfo_002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		grid-column-gap: 1em;
+	  grid-row-gap: 1em;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.w002_s001_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s001_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+
+	.section_002_block001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_002_block002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		margin-top: 10px;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_003_block001 {
+	}
+	.section_003_block002 {
+	}
+	.today_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.today_002 {
+	}
+	.today_003 {
+	}
+	/* //======================================= */
+	.showlocationBtn {}
+	.aloc{
+		position: relative;
+		background: #444;
+		color: #fff;
+		text-decoration: 	none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 0.1em;
+		padding: 5px 15px;
+		transition: 0.5s;
+		top: 6px;
+	}
+	.aloc:hover{
+		letter-spacing: 0.25em;
+		background: var(--clr);
+		color: var(--clr);
+		box-shadow: 0 0 35px var(--clr);
+	}
+	.aloc::before{
+		content: '';
+		position: absolute;
+		inset: 2px;
+		background: #27282c;
+	}
+	.aloc span{
+		position: relative;
+		z-index: 1;
+	}
+	.aloc i{
+		position: absolute;
+		inset: 0;
+		display: block;
+
+	}
+	.aloc i::before{
+		content: '';
+		position: absolute;
+		top: -3.5px;
+		left: 80%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::before{
+		width: 20px;
+		left: 20%;
+	}
+
+	.aloc i::after{
+		content: '';
+		position: absolute;
+		bottom: -3.5px;
+		left: 20%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::after{
+		width: 20px;
+		left: 80%;
+	}
+	/* //======================================= */
+
+	.weatherinfo_002_subblock_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.weatherinfo_002_subblock_002 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.weatherinfo_003_subblock_001 {
+	}
+	.weatherinfo_003_subblock_002 {
+	}
+	.section_002_block001_subblock_001 {
+		margin-top: 20px;
+	}
+	.section_002_block001_subblock_002 {
+		margin-top: 20px;
+	}
+	.section_002_block002_001 {
+		display: flex;
+	}
+	.section_002_block002_002 {
+		display: flex;
+	}
+	.section_002_block002_003 {
+		display: flex;
+	}
+	.section_002_block002_004 {
+		display: flex;
+	}
+	.section_002_block002_005 {
+		display: flex;
+	}
+	.section_002_block002_006 {
+		display: flex;
+	}
+	.section_002_block002_007 {
+		display: flex;
+	}
+	.location {
+	}
+	.locationdate {
+	}
+	.weather {
+	}
+	.weatherdescription {
+	}
+	.today_003_switch_001 {
+	}
+	.today_003_name {
+	}
+	.today_003_switch_002 {
+	}
+	.weatherinfo_001_subblock_001 {
+	}
+	.weatherinfo_001_subblock_002 {
+	}
+	.weatherinfo_002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_001 {
+	}
+	.weatherinfo_002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_002 {
+	}
+	.weatherinfo_003_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_001 {
+	}
+	.weatherinfo_003_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_002 {
+	}
+	.section_002_block001_switch_001 {
+	}
+	.section_002_block001_name {
+	}
+	.section_002_block001_switch_002 {
+	}
+	.section_002_block002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_001 {
+	}
+	.section_002_block002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_002 {
+	}
+	.section_002_block002_img_003 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_003 {
+	}
+	.section_002_block002_img_004 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_004 {
+	}
+	.section_002_block002_img_005 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_005 {
+	}
+	.section_002_block002_img_006 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_006 {
+	}
+	.section_002_block002_img_007 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_007 {
+	}
+	.imglocation {
+		width: 15px;
+		height: 15px;
+	}
+	.citylocation {
+	}
+	.date {
+	}
+	.degree {
+	}
+	.weatherinfo_002_name_001 {
+	}
+	.weatherinfo_002_date_001 {
+	}
+	.weatherinfo_002_name_002 {
+	}
+	.weatherinfo_002_date_002 {
+	}
+	.weatherinfo_003_name_001 {
+	}
+	.weatherinfo_003_date_001 {
+	}
+	.weatherinfo_003_name_002 {
+	}
+	.weatherinfo_003_date_002 {
+	}
+	.section_002_block002_name_001 {
+	}
+	.section_002_block002_date_001 {
+	}
+	.section_002_block002_name_002 {
+	}
+	.section_002_block002_date_002 {
+	}
+	.section_002_block002_name_003 {
+	}
+	.section_002_block002_date_003 {
+	}
+	.section_002_block002_name_004 {
+	}
+	.section_002_block002_date_004 {
+	}
+	.section_002_block002_name_005 {
+	}
+	.section_002_block002_date_005 {
+	}
+	.section_002_block002_name_006 {
+	}
+	.section_002_block002_date_006 {
+	}
+	.section_002_block002_name_007 {
+	}
+	.section_002_block002_date_007 {
+	}
+
+	@keyframes border {
+		0%{
+			border: 2px dashed #00FA9A;
+			filter: drop-shadow(0 0 50px #00FA9A);
+		}
+		25%{
+			border: 2px dashed #FF1493;
+			filter: drop-shadow(0 0 50px #FF1493);
+		}
+		50%{
+			border: 2px dashed #FF4500;
+			filter: drop-shadow(0 0 50px #FF4500);
+		}
+		75%{
+			border: 2px dashed #40E0D0;
+			filter: drop-shadow(0 0 50px #40E0D0);
+		}
+		100%{
+			border: 2px dashed #8B008B;
+			filter: drop-shadow(0 0 50px #8B008B);
+		}
+	}
+
+	@keyframes textInput {
+		0%{
+			color: #FF1493;
+			border: 3px solid #FFFAFA;
+		}
+		100%{
+			color: #00FFFF;
+			border: 5px solid #00FF00;
+		}
+	}
+}
+
+@media(max-width: 1024px) {
+	.subprime {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* //============================= */
+
+	.leftpanelB {
+		position: relative;
+		top: 80px;
+		left: 10px;
+	}
+
+	.block001_leftpanel {
+		display: none;
+	}
+
+	.block001_leftpanel::before {
+		display: none;
+	}
+
+	/* //============================= */
+
+
+	.leftpanel_b001 {
+
+	}
+
+	.leftpanel_img001 {
+		display: none;
+	}
+
+	.leftpanel_name001 {
+		display: flex;
+	}
+
+	.leftpanel_b002 {}
+
+	.leftpanel_img002 {
+		display: none;
+	}
+
+	.leftpanel_name002 {
+		display: flex;
+	}
+
+	.leftpanel_b003 {}
+
+	.leftpanel_img003 {
+		display: none;
+	}
+
+	.leftpanel_name003 {
+		display: flex;
+	}
+
+	.leftpanel_b004 {}
+
+	.leftpanel_img004 {
+		display: none;
+	}
+
+	.leftpanel_name004 {
+		display: flex;
+	}
+
+	.leftpanel_b005 {}
+
+	.leftpanel_img005 {
+		display: none;
+	}
+
+	.leftpanel_name005 {
+		display: flex;
+	}
+
+	.leftpanel_b006 {}
+
+	.leftpanel_name006 {}
+
+	.leftpanel_b007 {}
+
+	.leftpanel_img006 {
+		display: none;
+	}
+
+	.leftpanel_name007 {
+		display: flex;
+	}
+
+	.leftpanel_b008 {}
+
+	.leftpanel_img007 {
+		display: none;
+	}
+
+	.leftpanel_name008 {
+		display: flex;
+	}
+
+
+
+	.block002_right {
+		width: 85vw;
+		height: 100vh;
+	}
+
+	.header {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+
+	.date {}
+
+	.year {
+	    margin: 20px 0px 0px 30px;
+	}
+
+	.nowTime {
+	    margin: 0px 0px 0px 30px;
+	}
+
+	.input {
+	    display: flex;
+	    flex-direction: row;
+	    margin: 20px 20px 0px 0px;
+	}
+
+	.lname {
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+			text-align: center;
+			background: transparent;
+	}
+
+	.inputCity {
+		width: 70px;
+		height: 30px;
+		border: 1px solid gray;
+		background: transparent;
+		margin: 0px 50px 0px 0px;
+	}
+
+	.switchTheme {
+		width: 32px;
+		background: transparent;
+		margin: 0px 15px 0px 15px;
+	}
+
+	.bell_img {
+	    width: 30px;
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+	}
+
+	.user_img {
+	    width: 30px;
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+	}
+
+	.section_001 {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+	.section_002 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.section_003 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	.section_003_block001 {
+
+	}
+	.section_003_block001_subblock_001 {}
+
+	.section_003_block002 {
+	}
+	.section_003_block001_subblock_002 {}
+
+
+	.section_001_block001 {
+		padding-left: 30px;
+	}
+
+	.frame {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 35vw;
+		height: 37vh;
+		text-align: center;
+		padding: 20px 20px 20px 20px;
+		border: 2px dashed #1e9bff;
+	}
+
+	.section_001_block002 {
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+
+	}
+	.weatherinfo_001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 20px;
+	}
+
+	.weatherinfo_002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		grid-column-gap: 1em;
+	  grid-row-gap: 1em;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.w002_s001_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s001_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+
+	.section_002_block001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_002_block002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		margin-top: 10px;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_003_block001 {
+	}
+	.section_003_block002 {
+	}
+	.today_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.today_002 {
+	}
+	.today_003 {
+	}
+	/* //======================================= */
+	.showlocationBtn {}
+	.aloc{
+		position: relative;
+		background: #444;
+		color: #fff;
+		text-decoration: 	none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 0.1em;
+		padding: 5px 15px;
+		transition: 0.5s;
+		top: 6px;
+	}
+	.aloc:hover{
+		letter-spacing: 0.25em;
+		background: var(--clr);
+		color: var(--clr);
+		box-shadow: 0 0 35px var(--clr);
+	}
+	.aloc::before{
+		content: '';
+		position: absolute;
+		inset: 2px;
+		background: #27282c;
+	}
+	.aloc span{
+		position: relative;
+		z-index: 1;
+	}
+	.aloc i{
+		position: absolute;
+		inset: 0;
+		display: block;
+
+	}
+	.aloc i::before{
+		content: '';
+		position: absolute;
+		top: -3.5px;
+		left: 80%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::before{
+		width: 20px;
+		left: 20%;
+	}
+
+	.aloc i::after{
+		content: '';
+		position: absolute;
+		bottom: -3.5px;
+		left: 20%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::after{
+		width: 20px;
+		left: 80%;
+	}
+	/* //======================================= */
+
+	.weatherinfo_002_subblock_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.weatherinfo_002_subblock_002 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.weatherinfo_003_subblock_001 {
+	}
+	.weatherinfo_003_subblock_002 {
+	}
+	.section_002_block001_subblock_001 {
+		margin-top: 20px;
+	}
+	.section_002_block001_subblock_002 {
+		margin-top: 20px;
+	}
+	.section_002_block002_001 {
+		display: flex;
+	}
+	.section_002_block002_002 {
+		display: flex;
+	}
+	.section_002_block002_003 {
+		display: flex;
+	}
+	.section_002_block002_004 {
+		display: flex;
+	}
+	.section_002_block002_005 {
+		display: flex;
+	}
+	.section_002_block002_006 {
+		display: flex;
+	}
+	.section_002_block002_007 {
+		display: flex;
+	}
+	.location {
+	}
+	.locationdate {
+	}
+	.weather {
+	}
+	.weatherdescription {
+	}
+	.today_003_switch_001 {
+	}
+	.today_003_name {
+	}
+	.today_003_switch_002 {
+	}
+	.weatherinfo_001_subblock_001 {
+	}
+	.weatherinfo_001_subblock_002 {
+	}
+	.weatherinfo_002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_001 {
+	}
+	.weatherinfo_002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_002 {
+	}
+	.weatherinfo_003_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_001 {
+	}
+	.weatherinfo_003_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_002 {
+	}
+	.section_002_block001_switch_001 {
+	}
+	.section_002_block001_name {
+	}
+	.section_002_block001_switch_002 {
+	}
+	.section_002_block002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_001 {
+	}
+	.section_002_block002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_002 {
+	}
+	.section_002_block002_img_003 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_003 {
+	}
+	.section_002_block002_img_004 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_004 {
+	}
+	.section_002_block002_img_005 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_005 {
+	}
+	.section_002_block002_img_006 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_006 {
+	}
+	.section_002_block002_img_007 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_007 {
+	}
+	.imglocation {
+		width: 15px;
+		height: 15px;
+	}
+	.citylocation {
+		display: none;
+	}
+	.date {
+	}
+	.degree {
+	}
+	.weatherinfo_002_name_001 {
+	}
+	.weatherinfo_002_date_001 {
+	}
+	.weatherinfo_002_name_002 {
+	}
+	.weatherinfo_002_date_002 {
+	}
+	.weatherinfo_003_name_001 {
+	}
+	.weatherinfo_003_date_001 {
+	}
+	.weatherinfo_003_name_002 {
+	}
+	.weatherinfo_003_date_002 {
+	}
+	.section_002_block002_name_001 {
+	}
+	.section_002_block002_date_001 {
+	}
+	.section_002_block002_name_002 {
+	}
+	.section_002_block002_date_002 {
+	}
+	.section_002_block002_name_003 {
+	}
+	.section_002_block002_date_003 {
+	}
+	.section_002_block002_name_004 {
+	}
+	.section_002_block002_date_004 {
+	}
+	.section_002_block002_name_005 {
+	}
+	.section_002_block002_date_005 {
+	}
+	.section_002_block002_name_006 {
+	}
+	.section_002_block002_date_006 {
+	}
+	.section_002_block002_name_007 {
+	}
+	.section_002_block002_date_007 {
+	}
+
+	@keyframes border {
+		0%{
+			border: 2px dashed #00FA9A;
+			filter: drop-shadow(0 0 50px #00FA9A);
+		}
+		25%{
+			border: 2px dashed #FF1493;
+			filter: drop-shadow(0 0 50px #FF1493);
+		}
+		50%{
+			border: 2px dashed #FF4500;
+			filter: drop-shadow(0 0 50px #FF4500);
+		}
+		75%{
+			border: 2px dashed #40E0D0;
+			filter: drop-shadow(0 0 50px #40E0D0);
+		}
+		100%{
+			border: 2px dashed #8B008B;
+			filter: drop-shadow(0 0 50px #8B008B);
+		}
+	}
+
+	@keyframes textInput {
+		0%{
+			color: #FF1493;
+			border: 3px solid #FFFAFA;
+		}
+		100%{
+			color: #00FFFF;
+			border: 5px solid #00FF00;
+		}
+	}
+}
+
+
+
+@media(max-width: 1280px) {
+	.subprime {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* //============================= */
+
+	.leftpanelB {
+		display: none;
+	}
+
+	.block001_leftpanel {
+		display: none;
+	}
+
+	.block001_leftpanel::before {
+		display: none;
+	}
+
+	/* //============================= */
+
+
+	.leftpanel_b001 {
+
+	}
+
+	.leftpanel_img001 {
+		display: none;
+	}
+
+	.leftpanel_name001 {
+		display: flex;
+	}
+
+	.leftpanel_b002 {}
+
+	.leftpanel_img002 {
+		display: none;
+	}
+
+	.leftpanel_name002 {
+		display: flex;
+	}
+
+	.leftpanel_b003 {}
+
+	.leftpanel_img003 {
+		display: none;
+	}
+
+	.leftpanel_name003 {
+		display: flex;
+	}
+
+	.leftpanel_b004 {}
+
+	.leftpanel_img004 {
+		display: none;
+	}
+
+	.leftpanel_name004 {
+		display: flex;
+	}
+
+	.leftpanel_b005 {}
+
+	.leftpanel_img005 {
+		display: none;
+	}
+
+	.leftpanel_name005 {
+		display: flex;
+	}
+
+	.leftpanel_b006 {}
+
+	.leftpanel_name006 {}
+
+	.leftpanel_b007 {}
+
+	.leftpanel_img006 {
+		display: none;
+	}
+
+	.leftpanel_name007 {
+		display: flex;
+	}
+
+	.leftpanel_b008 {}
+
+	.leftpanel_img007 {
+		display: none;
+	}
+
+	.leftpanel_name008 {
+		display: flex;
+	}
+
+
+
+	.block002_right {
+		width: 85vw;
+		height: 100vh;
+	}
+
+	.header {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+
+	.date {}
+
+	.year {
+	    margin: 20px 0px 0px 30px;
+	}
+
+	.nowTime {
+	    margin: 0px 0px 0px 30px;
+	}
+
+	.input {
+	    display: flex;
+	    flex-direction: row;
+	    margin: 20px 20px 0px 0px;
+	}
+
+	.lname {
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+			text-align: center;
+			background: transparent;
+	}
+
+	.inputCity {
+		width: 70px;
+		height: 30px;
+		border: 1px solid gray;
+		background: transparent;
+		margin: 0px 50px 0px 0px;
+	}
+
+	.switchTheme {
+		width: 32px;
+		background: transparent;
+		margin: 0px 15px 0px 15px;
+	}
+
+	.bell_img {
+	    width: 30px;
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+	}
+
+	.user_img {
+	    width: 30px;
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+	}
+
+	.section_001 {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+	.section_002 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.section_003 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	.section_003_block001 {
+
+	}
+	.section_003_block001_subblock_001 {}
+
+	.section_003_block002 {
+	}
+	.section_003_block001_subblock_002 {}
+
+
+	.section_001_block001 {
+		padding-left: 30px;
+	}
+
+	.frame {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 35vw;
+		height: 37vh;
+		text-align: center;
+		padding: 20px 20px 20px 20px;
+		border: 2px dashed #1e9bff;
+	}
+
+	.section_001_block002 {
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+
+	}
+	.weatherinfo_001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 20px;
+	}
+
+	.weatherinfo_002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		grid-column-gap: 1em;
+	  grid-row-gap: 1em;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.w002_s001_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s001_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+
+	.section_002_block001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_002_block002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		margin-top: 10px;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_003_block001 {
+	}
+	.section_003_block002 {
+	}
+	.today_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.today_002 {
+	}
+	.today_003 {
+	}
+	/* //======================================= */
+	.showlocationBtn {}
+	.aloc{
+		position: relative;
+		background: #444;
+		color: #fff;
+		text-decoration: 	none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 0.1em;
+		padding: 5px 15px;
+		transition: 0.5s;
+		top: 6px;
+	}
+	.aloc:hover{
+		letter-spacing: 0.25em;
+		background: var(--clr);
+		color: var(--clr);
+		box-shadow: 0 0 35px var(--clr);
+	}
+	.aloc::before{
+		content: '';
+		position: absolute;
+		inset: 2px;
+		background: #27282c;
+	}
+	.aloc span{
+		position: relative;
+		z-index: 1;
+	}
+	.aloc i{
+		position: absolute;
+		inset: 0;
+		display: block;
+
+	}
+	.aloc i::before{
+		content: '';
+		position: absolute;
+		top: -3.5px;
+		left: 80%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::before{
+		width: 20px;
+		left: 20%;
+	}
+
+	.aloc i::after{
+		content: '';
+		position: absolute;
+		bottom: -3.5px;
+		left: 20%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::after{
+		width: 20px;
+		left: 80%;
+	}
+	/* //======================================= */
+
+	.weatherinfo_002_subblock_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.weatherinfo_002_subblock_002 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.weatherinfo_003_subblock_001 {
+	}
+	.weatherinfo_003_subblock_002 {
+	}
+	.section_002_block001_subblock_001 {
+		margin-top: 20px;
+	}
+	.section_002_block001_subblock_002 {
+		margin-top: 20px;
+	}
+	.section_002_block002_001 {
+		display: flex;
+	}
+	.section_002_block002_002 {
+		display: flex;
+	}
+	.section_002_block002_003 {
+		display: flex;
+	}
+	.section_002_block002_004 {
+		display: flex;
+	}
+	.section_002_block002_005 {
+		display: flex;
+	}
+	.section_002_block002_006 {
+		display: flex;
+	}
+	.section_002_block002_007 {
+		display: flex;
+	}
+	.location {
+	}
+	.locationdate {
+	}
+	.weather {
+	}
+	.weatherdescription {
+	}
+	.today_003_switch_001 {
+	}
+	.today_003_name {
+	}
+	.today_003_switch_002 {
+	}
+	.weatherinfo_001_subblock_001 {
+	}
+	.weatherinfo_001_subblock_002 {
+	}
+	.weatherinfo_002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_001 {
+	}
+	.weatherinfo_002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_002 {
+	}
+	.weatherinfo_003_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_001 {
+	}
+	.weatherinfo_003_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_002 {
+	}
+	.section_002_block001_switch_001 {
+	}
+	.section_002_block001_name {
+	}
+	.section_002_block001_switch_002 {
+	}
+	.section_002_block002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_001 {
+	}
+	.section_002_block002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_002 {
+	}
+	.section_002_block002_img_003 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_003 {
+	}
+	.section_002_block002_img_004 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_004 {
+	}
+	.section_002_block002_img_005 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_005 {
+	}
+	.section_002_block002_img_006 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_006 {
+	}
+	.section_002_block002_img_007 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_007 {
+	}
+	.imglocation {
+		width: 15px;
+		height: 15px;
+	}
+	.citylocation {
+	}
+	.date {
+	}
+	.degree {
+	}
+	.weatherinfo_002_name_001 {
+	}
+	.weatherinfo_002_date_001 {
+	}
+	.weatherinfo_002_name_002 {
+	}
+	.weatherinfo_002_date_002 {
+	}
+	.weatherinfo_003_name_001 {
+	}
+	.weatherinfo_003_date_001 {
+	}
+	.weatherinfo_003_name_002 {
+	}
+	.weatherinfo_003_date_002 {
+	}
+	.section_002_block002_name_001 {
+	}
+	.section_002_block002_date_001 {
+	}
+	.section_002_block002_name_002 {
+	}
+	.section_002_block002_date_002 {
+	}
+	.section_002_block002_name_003 {
+	}
+	.section_002_block002_date_003 {
+	}
+	.section_002_block002_name_004 {
+	}
+	.section_002_block002_date_004 {
+	}
+	.section_002_block002_name_005 {
+	}
+	.section_002_block002_date_005 {
+	}
+	.section_002_block002_name_006 {
+	}
+	.section_002_block002_date_006 {
+	}
+	.section_002_block002_name_007 {
+	}
+	.section_002_block002_date_007 {
+	}
+
+	@keyframes border {
+		0%{
+			border: 2px dashed #00FA9A;
+			filter: drop-shadow(0 0 50px #00FA9A);
+		}
+		25%{
+			border: 2px dashed #FF1493;
+			filter: drop-shadow(0 0 50px #FF1493);
+		}
+		50%{
+			border: 2px dashed #FF4500;
+			filter: drop-shadow(0 0 50px #FF4500);
+		}
+		75%{
+			border: 2px dashed #40E0D0;
+			filter: drop-shadow(0 0 50px #40E0D0);
+		}
+		100%{
+			border: 2px dashed #8B008B;
+			filter: drop-shadow(0 0 50px #8B008B);
+		}
+	}
+
+	@keyframes textInput {
+		0%{
+			color: #FF1493;
+			border: 3px solid #FFFAFA;
+		}
+		100%{
+			color: #00FFFF;
+			border: 5px solid #00FF00;
+		}
+	}
+}
+
+@media(max-width: 900px) {
+	.subprime {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* //============================= */
+
+	.leftpanelB {
+		display: none;
+	}
+
+	.block001_leftpanel {
+		display: none;
+	}
+
+	.block001_leftpanel::before {
+		display: none;
+	}
+
+	/* //============================= */
+
+
+	.leftpanel_b001 {
+
+	}
+
+	.leftpanel_img001 {
+		display: none;
+	}
+
+	.leftpanel_name001 {
+		display: flex;
+	}
+
+	.leftpanel_b002 {}
+
+	.leftpanel_img002 {
+		display: none;
+	}
+
+	.leftpanel_name002 {
+		display: flex;
+	}
+
+	.leftpanel_b003 {}
+
+	.leftpanel_img003 {
+		display: none;
+	}
+
+	.leftpanel_name003 {
+		display: flex;
+	}
+
+	.leftpanel_b004 {}
+
+	.leftpanel_img004 {
+		display: none;
+	}
+
+	.leftpanel_name004 {
+		display: flex;
+	}
+
+	.leftpanel_b005 {}
+
+	.leftpanel_img005 {
+		display: none;
+	}
+
+	.leftpanel_name005 {
+		display: flex;
+	}
+
+	.leftpanel_b006 {}
+
+	.leftpanel_name006 {}
+
+	.leftpanel_b007 {}
+
+	.leftpanel_img006 {
+		display: none;
+	}
+
+	.leftpanel_name007 {
+		display: flex;
+	}
+
+	.leftpanel_b008 {}
+
+	.leftpanel_img007 {
+		display: none;
+	}
+
+	.leftpanel_name008 {
+		display: flex;
+	}
+
+
+
+	.block002_right {
+		width: 90vw;
+		height: 100vh;
+	}
+
+	.header {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+
+	.date {}
+
+	.year {
+	    margin: 20px 0px 0px 30px;
+	}
+
+	.nowTime {
+	    margin: 0px 0px 0px 30px;
+	}
+
+	.input {
+	    display: flex;
+	    flex-direction: row;
+	    margin: 20px 20px 0px 0px;
+	}
+
+	.lname {
+	    height: 30px;
+	    margin: 0px 10px 0px 0px;
+			text-align: center;
+			background: transparent;
+	}
+
+	.inputCity {
+		width: 70px;
+		height: 30px;
+		border: 1px solid gray;
+		background: transparent;
+		margin: 0px 10px 0px 0px;
+	}
+
+	.switchTheme {
+		display: none;
+	}
+
+	.bell_img {
+	    display: none;
+	}
+
+	.user_img {
+	    display: none;
+	}
+
+	.section_001 {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+	.section_002 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.section_003 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	.section_003_block001 {
+
+	}
+	.section_003_block001_subblock_001 {}
+
+	.section_003_block002 {
+	}
+	.section_003_block001_subblock_002 {}
+
+
+	.section_001_block001 {
+		padding-left: 30px;
+	}
+
+	.frame {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 35vw;
+		height: 37vh;
+		text-align: center;
+		padding: 20px 20px 20px 20px;
+		border: 2px dashed #1e9bff;
+	}
+
+	.section_001_block002 {
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+
+	}
+	.weatherinfo_001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 20px;
+	}
+
+	.weatherinfo_002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		grid-column-gap: 1em;
+	  grid-row-gap: 1em;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.w002_s001_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s001_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+
+	.section_002_block001 {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_002_block002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		margin-top: 10px;
+		padding: 0px 30px 0px 30px;
+	}
+	.section_003_block001 {
+	}
+	.section_003_block002 {
+	}
+	.today_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.today_002 {
+	}
+	.today_003 {
+	}
+	/* //======================================= */
+	.showlocationBtn {}
+	.aloc{
+		position: relative;
+		background: #444;
+		color: #fff;
+		text-decoration: 	none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 0.1em;
+		padding: 5px 15px;
+		transition: 0.5s;
+		top: 6px;
+	}
+	.aloc:hover{
+		letter-spacing: 0.25em;
+		background: var(--clr);
+		color: var(--clr);
+		box-shadow: 0 0 35px var(--clr);
+	}
+	.aloc::before{
+		content: '';
+		position: absolute;
+		inset: 2px;
+		background: #27282c;
+	}
+	.aloc span{
+		position: relative;
+		z-index: 1;
+	}
+	.aloc i{
+		position: absolute;
+		inset: 0;
+		display: block;
+
+	}
+	.aloc i::before{
+		content: '';
+		position: absolute;
+		top: -3.5px;
+		left: 80%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::before{
+		width: 20px;
+		left: 20%;
+	}
+
+	.aloc i::after{
+		content: '';
+		position: absolute;
+		bottom: -3.5px;
+		left: 20%;
+		width: 10px;
+		height: 5px;
+		border: 2px solid var(--clr);
+		background: #27282c;
+		transform: translateX(-50%);
+		transition: 0.5s;
+	}
+	.aloc:hover i::after{
+		width: 20px;
+		left: 80%;
+	}
+	/* //======================================= */
+
+	.weatherinfo_002_subblock_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.weatherinfo_002_subblock_002 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.weatherinfo_003_subblock_001 {
+	}
+	.weatherinfo_003_subblock_002 {
+	}
+	.section_002_block001_subblock_001 {
+		margin-top: 20px;
+	}
+	.section_002_block001_subblock_002 {
+		margin-top: 20px;
+	}
+	.section_002_block002_001 {
+		display: flex;
+	}
+	.section_002_block002_002 {
+		display: flex;
+	}
+	.section_002_block002_003 {
+		display: flex;
+	}
+	.section_002_block002_004 {
+		display: flex;
+	}
+	.section_002_block002_005 {
+		display: flex;
+	}
+	.section_002_block002_006 {
+		display: flex;
+	}
+	.section_002_block002_007 {
+		display: flex;
+	}
+	.location {
+	}
+	.locationdate {
+	}
+	.weather {
+	}
+	.weatherdescription {
+	}
+	.today_003_switch_001 {
+	}
+	.today_003_name {
+	}
+	.today_003_switch_002 {
+	}
+	.weatherinfo_001_subblock_001 {
+	}
+	.weatherinfo_001_subblock_002 {
+	}
+	.weatherinfo_002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_001 {
+	}
+	.weatherinfo_002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_002 {
+	}
+	.weatherinfo_003_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_001 {
+	}
+	.weatherinfo_003_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_002 {
+	}
+	.section_002_block001_switch_001 {
+	}
+	.section_002_block001_name {
+	}
+	.section_002_block001_switch_002 {
+	}
+	.section_002_block002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_001 {
+	}
+	.section_002_block002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_002 {
+	}
+	.section_002_block002_img_003 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_003 {
+	}
+	.section_002_block002_img_004 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_004 {
+	}
+	.section_002_block002_img_005 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_005 {
+	}
+	.section_002_block002_img_006 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_006 {
+	}
+	.section_002_block002_img_007 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_007 {
+	}
+	.imglocation {
+		width: 15px;
+		height: 15px;
+	}
+	.citylocation {
+	}
+	.date {
+	}
+	.degree {
+	}
+	.weatherinfo_002_name_001 {
+	}
+	.weatherinfo_002_date_001 {
+	}
+	.weatherinfo_002_name_002 {
+	}
+	.weatherinfo_002_date_002 {
+	}
+	.weatherinfo_003_name_001 {
+	}
+	.weatherinfo_003_date_001 {
+	}
+	.weatherinfo_003_name_002 {
+	}
+	.weatherinfo_003_date_002 {
+	}
+	.section_002_block002_name_001 {
+	}
+	.section_002_block002_date_001 {
+	}
+	.section_002_block002_name_002 {
+	}
+	.section_002_block002_date_002 {
+	}
+	.section_002_block002_name_003 {
+	}
+	.section_002_block002_date_003 {
+	}
+	.section_002_block002_name_004 {
+	}
+	.section_002_block002_date_004 {
+	}
+	.section_002_block002_name_005 {
+	}
+	.section_002_block002_date_005 {
+	}
+	.section_002_block002_name_006 {
+	}
+	.section_002_block002_date_006 {
+	}
+	.section_002_block002_name_007 {
+	}
+	.section_002_block002_date_007 {
+	}
+
+	@keyframes border {
+		0%{
+			border: 2px dashed #00FA9A;
+			filter: drop-shadow(0 0 50px #00FA9A);
+		}
+		25%{
+			border: 2px dashed #FF1493;
+			filter: drop-shadow(0 0 50px #FF1493);
+		}
+		50%{
+			border: 2px dashed #FF4500;
+			filter: drop-shadow(0 0 50px #FF4500);
+		}
+		75%{
+			border: 2px dashed #40E0D0;
+			filter: drop-shadow(0 0 50px #40E0D0);
+		}
+		100%{
+			border: 2px dashed #8B008B;
+			filter: drop-shadow(0 0 50px #8B008B);
+		}
+	}
+
+	@keyframes textInput {
+		0%{
+			color: #FF1493;
+			border: 3px solid #FFFAFA;
+		}
+		100%{
+			color: #00FFFF;
+			border: 5px solid #00FF00;
+		}
+	}
+}
+@media(max-width: 700px) {
+	.subprime {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* //============================= */
+
+	.leftpanelB {
+		display: none;
+	}
+
+	.block001_leftpanel {
+		display: none;
+	}
+
+	.block001_leftpanel::before {
+		display: none;
+	}
+
+	/* //============================= */
+
+
+	.leftpanel_b001 {
+
+	}
+
+	.leftpanel_img001 {
+		display: none;
+	}
+
+	.leftpanel_name001 {
+		display: none;
+	}
+
+	.leftpanel_b002 {}
+
+	.leftpanel_img002 {
+		display: none;
+	}
+
+	.leftpanel_name002 {
+		display: none;
+	}
+
+	.leftpanel_b003 {}
+
+	.leftpanel_img003 {
+		display: none;
+	}
+
+	.leftpanel_name003 {
+		display: none;
+	}
+
+	.leftpanel_b004 {}
+
+	.leftpanel_img004 {
+		display: none;
+	}
+
+	.leftpanel_name004 {
+		display: none;
+	}
+
+	.leftpanel_b005 {}
+
+	.leftpanel_img005 {
+		display: none;
+	}
+
+	.leftpanel_name005 {
+		display: none;
+	}
+
+	.leftpanel_b006 {}
+
+	.leftpanel_name006 {}
+
+	.leftpanel_b007 {}
+
+	.leftpanel_img006 {
+		display: none;
+	}
+
+	.leftpanel_name007 {
+		display: none;
+	}
+
+	.leftpanel_b008 {}
+
+	.leftpanel_img007 {
+		display: none;
+	}
+
+	.leftpanel_name008 {
+		display: none;
+	}
+
+
+
+	.block002_right {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.header {
+	    display: none;
+	}
+
+	.date {
+		display: none;
+	}
+
+	.year {
+	    display: none;
+	}
+
+	.nowTime {
+	    display: none;
+	}
+
+	.input {
+	    display: none;
+	}
+
+	.lname {
+	    display: none;
+	}
+
+	.inputCity {
+		display: none;
+	}
+
+	.switchTheme {
+		display: none;
+	}
+
+	.bell_img {
+	    display: none;
+	}
+
+	.user_img {
+	    display: none;
+	}
+
+	.section_001 {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+		text-align: center;
+	}
+	.section_002 {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+	}
+	.section_003 {
+		display: none;
+
+	}
+
+	.section_003_block001 {
+
+	}
+	.section_003_block001_subblock_001 {}
+
+	.section_003_block002 {
+	}
+	.section_003_block001_subblock_002 {}
+
+
+	.section_001_block001 {
+		position: relative;
+		left: 30px;
+	}
+
+	.frame {
+		justify-content: space-between;
+		text-align: center;
+		border: 2px dashed #1e9bff;
+	}
+
+	.section_001_block002 {
+		position: relative;
+		left: 30px;
+
+	}
+	.weatherinfo_001 {
+		display: none;
+	}
+
+	.weatherinfo_002 {
+		margin: 10px 0px 0px 0px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		grid-column-gap: 1em;
+	  grid-row-gap: 1em;
+	}
+
+	.w002_s001_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s001_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b001 {
+		border: 2px dashed #1e9bff;
+	}
+
+	.w002_s002_b002 {
+		border: 2px dashed #1e9bff;
+	}
+
+
+	.section_002_block001 {
+		display: none;
+	}
+	.section_002_block002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 10px 0px 0px 15px;
+	}
+	.section_003_block001 {
+	}
+	.section_003_block002 {
+	}
+	.today_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.today_002 {
+	}
+	.today_003 {
+	}
+	/* //======================================= */
+	.showlocationBtn {
+		display: none;
+	}
+	.aloc{
+		position: relative;
+	}
+	/* //======================================= */
+
+	.weatherinfo_002_subblock_001 {
+		display: flex;
+		justify-content: space-between;
+	}
+	.weatherinfo_002_subblock_002 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.weatherinfo_003_subblock_001 {
+	}
+	.weatherinfo_003_subblock_002 {
+	}
+	.section_002_block001_subblock_001 {
+	}
+	.section_002_block001_subblock_002 {
+	}
+	.section_002_block002_001 {
+		display: flex;
+	}
+	.section_002_block002_002 {
+		display: flex;
+	}
+	.section_002_block002_003 {
+		display: flex;
+	}
+	.section_002_block002_004 {
+		display: flex;
+	}
+	.section_002_block002_005 {
+		display: flex;
+	}
+	.section_002_block002_006 {
+		display: flex;
+	}
+	.section_002_block002_007 {
+		display: flex;
+	}
+	.location {
+	}
+	.locationdate {
+	}
+	.weather {
+	}
+	.weatherdescription {
+	}
+	.today_003_switch_001 {
+	}
+	.today_003_name {
+	}
+	.today_003_switch_002 {
+	}
+	.weatherinfo_001_subblock_001 {
+	}
+	.weatherinfo_001_subblock_002 {
+	}
+	.weatherinfo_002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_001 {
+	}
+	.weatherinfo_002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_002_text_002 {
+	}
+	.weatherinfo_003_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_001 {
+	}
+	.weatherinfo_003_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.weatherinfo_003_text_002 {
+	}
+	.section_002_block001_switch_001 {
+	}
+	.section_002_block001_name {
+	}
+	.section_002_block001_switch_002 {
+	}
+	.section_002_block002_img_001 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_001 {
+	}
+	.section_002_block002_img_002 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_002 {
+	}
+	.section_002_block002_img_003 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_003 {
+	}
+	.section_002_block002_img_004 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_004 {
+	}
+	.section_002_block002_img_005 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_005 {
+	}
+	.section_002_block002_img_006 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_006 {
+	}
+	.section_002_block002_img_007 {
+		width: 50px;
+		height: 50px;
+	}
+	.section_002_block002_text_007 {
+	}
+	.imglocation {
+		width: 15px;
+		height: 15px;
+	}
+	.citylocation {
+	}
+	.date {
+	}
+	.degree {
+	}
+	.weatherinfo_002_name_001 {
+	}
+	.weatherinfo_002_date_001 {
+	}
+	.weatherinfo_002_name_002 {
+	}
+	.weatherinfo_002_date_002 {
+	}
+	.weatherinfo_003_name_001 {
+	}
+	.weatherinfo_003_date_001 {
+	}
+	.weatherinfo_003_name_002 {
+	}
+	.weatherinfo_003_date_002 {
+	}
+	.section_002_block002_name_001 {
+	}
+	.section_002_block002_date_001 {
+	}
+	.section_002_block002_name_002 {
+	}
+	.section_002_block002_date_002 {
+	}
+	.section_002_block002_name_003 {
+	}
+	.section_002_block002_date_003 {
+	}
+	.section_002_block002_name_004 {
+	}
+	.section_002_block002_date_004 {
+	}
+	.section_002_block002_name_005 {
+	}
+	.section_002_block002_date_005 {
+	}
+	.section_002_block002_name_006 {
+	}
+	.section_002_block002_date_006 {
+	}
+	.section_002_block002_name_007 {
+	}
+	.section_002_block002_date_007 {
+	}
+
+}
+
+@media(max-width: 490px) {
+	.subprime {
+		display: flex;
+		justify-content: center;
+	}
+
+	/* //============================= */
+
+	.leftpanelB {
+		display: none;
+	}
+
+	.block001_leftpanel {
+		display: none;
+	}
+
+	.block001_leftpanel::before {
+		display: none;
+	}
+
+	/* //============================= */
+
+
+	.leftpanel_b001 {
+
+	}
+
+	.leftpanel_img001 {
+		display: none;
+	}
+
+	.leftpanel_name001 {
+		display: none;
+	}
+
+	.leftpanel_b002 {}
+
+	.leftpanel_img002 {
+		display: none;
+	}
+
+	.leftpanel_name002 {
+		display: none;
+	}
+
+	.leftpanel_b003 {}
+
+	.leftpanel_img003 {
+		display: none;
+	}
+
+	.leftpanel_name003 {
+		display: none;
+	}
+
+	.leftpanel_b004 {}
+
+	.leftpanel_img004 {
+		display: none;
+	}
+
+	.leftpanel_name004 {
+		display: none;
+	}
+
+	.leftpanel_b005 {}
+
+	.leftpanel_img005 {
+		display: none;
+	}
+
+	.leftpanel_name005 {
+		display: none;
+	}
+
+	.leftpanel_b006 {}
+
+	.leftpanel_name006 {}
+
+	.leftpanel_b007 {}
+
+	.leftpanel_img006 {
+		display: none;
+	}
+
+	.leftpanel_name007 {
+		display: none;
+	}
+
+	.leftpanel_b008 {}
+
+	.leftpanel_img007 {
+		display: none;
+	}
+
+	.leftpanel_name008 {
+		display: none;
+	}
+
+
+
+	.block002_right {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.header {
+	    display: none;
+	}
+
+	.date {
+		display: none;
+	}
+
+	.year {
+	    display: none;
+	}
+
+	.nowTime {
+	    display: none;
+	}
+
+	.input {
+	    display: none;
+	}
+
+	.lname {
+	    display: none;
+	}
+
+	.inputCity {
+		display: none;
+	}
+
+	.switchTheme {
+		display: none;
+	}
+
+	.bell_img {
+	    display: none;
+	}
+
+	.user_img {
+	    display: none;
+	}
+
+	.section_001 {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+		text-align: center;
+	}
+	.section_002 {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+	}
+	.section_003 {
+		display: none;
+
+	}
+
+	.section_003_block001 {
+
+	}
+	.section_003_block001_subblock_001 {}
+
+	.section_003_block002 {
+	}
+	.section_003_block001_subblock_002 {}
+
+
+	.section_001_block001 {
+		position: relative;
+		left: 30px;
+	}
+
+	.frame {
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	.section_001_block002 {
+		position: relative;
+		left: 30px;
+
+	}
+	.weatherinfo_001 {
+		display: none;
+	}
+
+	.weatherinfo_002 {
+		margin: 10px 0px 0px 0px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		grid-column-gap: 1em;
+	  grid-row-gap: 1em;
+	}
+
+	.w002_s001_b001 {
+
+	}
+
+	.w002_s001_b002 {
+
+	}
+
+	.w002_s002_b001 {
+
+	}
+
+	.w002_s002_b002 {
+
+	}
+
+
+	.section_002_block001 {
+		display: none;
+	}
+	.section_002_block002 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 10px 0px 0px 55px;
+	}
+	.section_003_block001 {
+	}
+	.section_003_block002 {
+	}
+	.today_001 {
+	}
+	.today_002 {
+	}
+	.today_003 {
+	}
+	/* //======================================= */
+	.showlocationBtn {
+		display: none;
+	}
+	.aloc{
+	}
+	/* //======================================= */
+
+	.weatherinfo_002_subblock_001 {
+
+	}
+	.weatherinfo_002_subblock_002 {
+
+	}
+
+	.weatherinfo_003_subblock_001 {
+	}
+	.weatherinfo_003_subblock_002 {
+	}
+	.section_002_block001_subblock_001 {
+	}
+	.section_002_block001_subblock_002 {
+	}
+	.section_002_block002_001 {
+
+	}
+	.section_002_block002_002 {
+
+	}
+	.section_002_block002_003 {
+
+	}
+	.section_002_block002_004 {
+
+	}
+	.section_002_block002_005 {
+
+	}
+	.section_002_block002_006 {
+
+	}
+	.section_002_block002_007 {
+
+	}
+	.location {
+	}
+	.locationdate {
+	}
+	.weather {
+	}
+	.weatherdescription {
+	}
+	.today_003_switch_001 {
+	}
+	.today_003_name {
+	}
+	.today_003_switch_002 {
+	}
+	.weatherinfo_001_subblock_001 {
+	}
+	.weatherinfo_001_subblock_002 {
+	}
+	.weatherinfo_002_img_001 {
+		display: none;
+	}
+	.weatherinfo_002_text_001 {
+	}
+	.weatherinfo_002_img_002 {
+		display: none;
+	}
+	.weatherinfo_002_text_002 {
+	}
+	.weatherinfo_003_img_001 {
+		display: none;
+	}
+	.weatherinfo_003_text_001 {
+	}
+	.weatherinfo_003_img_002 {
+		display: none;
+	}
+	.weatherinfo_003_text_002 {
+	}
+	.section_002_block001_switch_001 {
+	}
+	.section_002_block001_name {
+	}
+	.section_002_block001_switch_002 {
+	}
+	.section_002_block002_img_001 {
+		display: none;
+	}
+	.section_002_block002_text_001 {
+	}
+	.section_002_block002_img_002 {
+		display: none;
+	}
+	.section_002_block002_text_002 {
+	}
+	.section_002_block002_img_003 {
+		display: none;
+	}
+	.section_002_block002_text_003 {
+	}
+	.section_002_block002_img_004 {
+		display: none;
+	}
+	.section_002_block002_text_004 {
+	}
+	.section_002_block002_img_005 {
+		display: none;
+	}
+	.section_002_block002_text_005 {
+	}
+	.section_002_block002_img_006 {
+		display: none;
+	}
+	.section_002_block002_text_006 {
+	}
+	.section_002_block002_img_007 {
+		display: none;
+	}
+	.section_002_block002_text_007 {
+	}
+	.imglocation {
+		display: none;
+}
+
+}
+
+@media(max-width: 250px) {
+	.subprime {
+		display: none;
+	}

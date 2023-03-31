@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+/* @font-face {
+	font-family: 'Font';
+	src: url(bayern.ttf);
+} */
+
+/* body{
+  font-family: Font;
+} */
+
+/* .display {
+	font-size: 128px;
+} */
+
+
+.prime {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(img/background.jpg);
+	background-size: 100%;
+	color: aliceblue;
+}
+
+.container {}
+
+
+.registration {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.regname {
+	font-size: 12vh;
+}
+
+.form {
+	margin-top: 20px;
+	font-size: 4vh;
+}
+
+.debug {
+	text-align: center;
+}
+
+.email {
+	background: transparent;
+	color: aliceblue;
+	border: 2px solid aliceblue;
+	font-size: 3vh;
+}
+
+
+
+.password {
+	margin-top: 10px;
+	background: transparent;
+	color: aliceblue;
+	border: 2px solid aliceblue;
+	font-size: 3vh;
+}
+
+.btn {
+	margin-top: 10px;
+	background: transparent;
+	border: 2px solid aliceblue;
+	color: aliceblue;
+	font-size: 3vh;
+}
+
+.btn:hover {
+	--_p: 100%;
+	transition: background-position .4s, background-size 0s;
+}
